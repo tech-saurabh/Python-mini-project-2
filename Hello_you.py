@@ -1,0 +1,6 @@
+name = input("what is your name : ")
+age = input("how old are you : ")
+city = input(" city where you live : ")
+love = input("what you love doing : ")
+string = " your name is {} and you are {} years old. you live in {} and you love {} ".format(name,age,city,love)
+print(string)
